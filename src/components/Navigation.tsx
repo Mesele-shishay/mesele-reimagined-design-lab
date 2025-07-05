@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Code, User, Briefcase, Mail } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,6 +71,7 @@ const Navigation = () => {
                 </button>
               );
             })}
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
@@ -104,6 +106,9 @@ const Navigation = () => {
                   </button>
                 );
               })}
+              <div className="flex justify-center pt-2">
+                <ThemeToggle />
+              </div>
             </div>
           </div>
         )}

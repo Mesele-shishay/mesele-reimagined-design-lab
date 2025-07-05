@@ -93,6 +93,59 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
+  /* Light mode variables */
+  .light {
+    /* Core Background System */
+    --background: 0 0% 100%;
+    --background-secondary: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+    --foreground-secondary: 215.4 16.3% 46.9%;
+
+    /* Card & Surface System */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --card-hover: 210 40% 96%;
+
+    /* Popover System */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Premium Brand Colors - same for both modes */
+    --primary: 274 91% 60%;
+    --primary-dark: 274 91% 50%;
+    --primary-light: 274 91% 70%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Accent System - same for both modes */
+    --accent: 324 87% 68%;
+    --accent-dark: 324 87% 58%;
+    --accent-foreground: 0 0% 98%;
+
+    /* Secondary Brand */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+
+    /* Muted System */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Interactive Elements */
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 274 91% 60%;
+
+    /* Glass Morphism */
+    --glass: 0 0% 100% / 0.8;
+    --glass-border: 215.4 16.3% 46.9% / 0.1;
+
+    /* Shadows & Effects */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
+    --shadow-glow: 0 0 40px hsl(274 91% 60% / 0.15);
+    --shadow-accent: 0 0 30px hsl(324 87% 68% / 0.1);
+  }
+
   /* Dark mode maintains the same premium aesthetic */
   .dark {
     /* Same variables - our design is primarily dark by default */
