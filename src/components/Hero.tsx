@@ -108,32 +108,32 @@ const Hero = () => {
       <div className="absolute top-20 right-8 hidden lg:block animate-fade-down" style={{ animationDelay: '1s' }}>
         <div className="glass rounded-lg p-6 w-80 border">
           <div className="flex items-center space-x-2 mb-4">
-            <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-            <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-            <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+            <div className="w-3 h-3 bg-destructive rounded-full"></div>
+            <div className="w-3 h-3 bg-warning rounded-full"></div>
+            <div className="w-3 h-3 bg-success rounded-full"></div>
             <span className="text-sm text-foreground-secondary ml-2">portfolio.tsx</span>
           </div>
           <div className="space-y-2 text-sm font-mono">
             <div className="text-muted-foreground">
-              <span className="text-blue-400">1</span> <span className="text-gray-500">// Welcome to my Portfolio! 🚀</span>
+              <span className="text-primary">1</span> <span className="text-muted-foreground">// Welcome to my Portfolio! 🚀</span>
             </div>
             <div className="text-muted-foreground">
-              <span className="text-blue-400">2</span> <span className="text-purple-400">import</span> <span className="text-yellow-400">{'{'}</span> <span className="text-blue-300">Developer</span> <span className="text-yellow-400">{'}'}</span> <span className="text-purple-400">from</span> <span className="text-green-400">'./mesele'</span>
+              <span className="text-primary">2</span> <span className="text-accent">import</span> <span className="text-warning">{'{'}</span> <span className="text-primary-light">Developer</span> <span className="text-warning">{'}'}</span> <span className="text-accent">from</span> <span className="text-success">'./mesele'</span>
             </div>
             <div className="text-muted-foreground">
-              <span className="text-blue-400">3</span>
+              <span className="text-primary">3</span>
             </div>
             <div className="text-muted-foreground">
-              <span className="text-blue-400">4</span> <span className="text-purple-400">const</span> <span className="text-blue-300">skills</span> <span className="text-yellow-400">=</span> <span className="text-yellow-400">[</span>
+              <span className="text-primary">4</span> <span className="text-accent">const</span> <span className="text-primary-light">skills</span> <span className="text-warning">=</span> <span className="text-warning">[</span>
             </div>
             <div className="text-muted-foreground pl-4">
-              <span className="text-blue-400">5</span> <span className="text-green-400">'React'</span><span className="text-yellow-400">,</span> <span className="text-green-400">'Node.js'</span><span className="text-yellow-400">,</span>
+              <span className="text-primary">5</span> <span className="text-success">'React'</span><span className="text-warning">,</span> <span className="text-success">'Node.js'</span><span className="text-warning">,</span>
             </div>
             <div className="text-muted-foreground pl-4">
-              <span className="text-blue-400">6</span> <span className="text-green-400">'TypeScript'</span><span className="text-yellow-400">,</span> <span className="text-green-400">'Python'</span>
+              <span className="text-primary">6</span> <span className="text-success">'TypeScript'</span><span className="text-warning">,</span> <span className="text-success">'Python'</span>
             </div>
             <div className="text-muted-foreground">
-              <span className="text-blue-400">7</span> <span className="text-yellow-400">]</span>
+              <span className="text-primary">7</span> <span className="text-warning">]</span>
             </div>
           </div>
         </div>

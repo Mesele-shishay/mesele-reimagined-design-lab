@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-4 text-sm text-foreground-secondary border-t border-border/10 pt-8 w-full">
             <div className="flex items-center space-x-1">
               <span>© {currentYear} Made with</span>
-              <Heart className="w-4 h-4 text-red-500 fill-current" />
+              <Heart className="w-4 h-4 text-destructive fill-current" />
               <span>by Mesele Shishay</span>
             </div>
             <div className="hidden md:block">•</div>
