@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="text-center space-y-4">
             <div className="flex items-center justify-center space-x-2">
               <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <Code className="w-6 h-6 text-white" />
+                <Code className="w-6 h-6 text-primary-foreground" />
               </div>
               <span className="text-2xl font-bold gradient-text">Mesele Shishay</span>
             </div>

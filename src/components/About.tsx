@@ -89,7 +89,7 @@ const About = () => {
               >
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
-                    <Icon className="w-6 h-6 text-white" />
+                    <Icon className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <h4 className="text-xl font-semibold">{skill.name}</h4>
                 </div>
@@ -120,7 +120,7 @@ const About = () => {
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto pulse-glow">
-                  <Icon className="w-8 h-8 text-white" />
+                  <Icon className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h4 className="text-xl font-semibold">{achievement.title}</h4>
                 <p className="text-foreground-secondary">{achievement.description}</p>

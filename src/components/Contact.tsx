@@ -102,7 +102,7 @@ const Contact = () => {
                     style={{ animationDelay: `${index * 0.1}s` }}
                   >
                     <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-6 h-6 text-white" />
+                      <Icon className="w-6 h-6 text-primary-foreground" />
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">{method.title}</h4>
@@ -220,7 +220,7 @@ const Contact = () => {
               >
                 {isSubmitting ? (
                   <div className="flex items-center space-x-2">
-                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                    <div className="w-4 h-4 border-2 border-primary-foreground border-t-transparent rounded-full animate-spin"></div>
                     <span>Sending...</span>
                   </div>
                 ) : (
